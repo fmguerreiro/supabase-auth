@@ -14,7 +14,7 @@ var configFile = ""
 var rootCmd = cobra.Command{
 	Use: "gotrue",
 	Run: func(cmd *cobra.Command, args []string) {
-		migrate(cmd, args)
+		// migrate(cmd, args)
 		serve(cmd.Context())
 	},
 }
